@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busy Bees Details</title>
+    <style>
+     
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="intro-section">
+            <!-- Enhanced styling for company image/logo -->
+            <img src="{{ url_for('static', filename='IMG_0977.jpeg') }}" alt="Company Logo">
+            <h2>Welcome to Busy Bees Detailing</h2>
+            <p>Choose from our range of services designed to keep your vehicle looking its best. With over 6 years of experience, we ensure every detail is handled with care and precision.</p>
+        </div>
+        
+        <div class="services-section">
+            <!-- Service 1 -->
+            <div class="service">
+                <h3>The Wipe Me Down</h3>
+                <p>Includes a thorough interior and exterior clean to keep your vehicle looking fresh.</p>
+                <a href="/book-wipe" class="book-now">Book Now</a>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service">
+                <h3>Premium</h3>
+                <p>Comprehensive package with interior, exterior, headlight restoration, and engine cleaning.</p>
+                <a href="/book-premium" class="book-now">Book Now</a>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="service">
+                <h3>The Deluxe</h3>
+                <p>Includes all Premium services plus 5-step ceramic paint correction for a flawless finish.</p>
+                <a href="/book-deluxe" class="book-now">Book Now</a>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service">
+                <h3>Ultimate Detail</h3>
+                <p>Our top-tier service with all detailing options, paint protection, and advanced polish.</p>
+                <a href="/book-ultimate" class="book-now">Book Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
